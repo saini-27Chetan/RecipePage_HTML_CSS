@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 48rem;
+  background-color: hsl(0, 0%, 100%);
+  margin: 8rem auto;
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+#second-section{
+    margin: 2rem 0rem;
+}
+
+.second-section-header{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.description{
+    color: rgb(92 91 91);
+    font-weight: 400;
+}
+
+#third-section{
+    background-color: hsl(330, 100%, 98%);
+    font-family: "Outfit";
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin: 2rem 0;
+}
+
+.third-section-header{
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+#third-section ul{
+    margin: 0;
+    position: relative;
+    top: 0.5rem;
+    left: 1rem;
+}
+
+#third-section li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+#third-section li{
+    list-style-position: inside;
+    position: relative;
+    right: 2.5rem;
+    padding: 0.5rem;
+    font-size: large;
+}
+
+.time-heading{
+    color: hsl(30, 10%, 34%);
+    font-weight: 600;
+}
+
+.time-para{
+    color: rgb(92 91 91)
+}
+
+#fourth-section, #fifth-section{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.fourth-section-header, .fifth-section-header, .sixth-section-header{
+    color: hsl(14, 45%, 36%);
+    font-size: 2rem;
+}
+
+#fourth-section li::marker, #fifth-section li::marker{
+    color: hsl(14, 45%, 36%);
+    list-style-position: inside;
+    font-weight: 800;
+    position: relative;
+    right: 1rem;
+}
+
+#fourth-section ul, #fifth-section ol{
+    position: relative;
+    right: 1rem;
+}
+
+#fourth-section li, #fifth-section li{
+    padding: 0.5rem;
+    font-family: "Outfit";
+    color: rgb(92 91 91);
+}
+
+
+#fourth-section li > div, #fifth-section li > div{
+    padding-left: 1rem; 
+} 
+
+.inst-head{
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+}
+
+.nutrition-subhead, table{
+    color: rgb(92 91 91);
+    font-family: "Outfit";
+}
+
+.table{
+    font-family: "Outfit";
+}
+
+.table-row{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 1rem 2rem;
+}
+
+.table-data{
+    display: inline-block;
+    color: rgb(92 91 91);
+    font-weight: 400;
+    width: 50%;
+}
+
+.table-value{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+#remove-border{
+    border: none;
+}
+
+/* Media Queries */
+@media (max-width:500px) {
+    .container{
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    img{
+        border-radius: 0;
+    }
+    article{
+        padding: 1rem;
+    }
+}
